@@ -1,0 +1,595 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="JS/TarotInformation.js"></script>
+</head>
+
+<style>
+	body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;}
+</style>
+
+<body>
+
+
+
+
+<div class="form-group" style="margin:1%;">
+	<label style="display: flex;justify-content: center;font-size:25px;">第一張</label>
+</div>
+
+<div class="form-group" style="margin:2%;">
+	<select class="form-control form-control-lg" id = "Card01" TarotCard="01">
+	</select>
+</div>
+
+<div class="form-group" style="margin:2%;">
+	<select class="form-control" aria-label="Default select example" CardSelectStatus="01" id="CardStatus0">
+		<option value="">請選擇</option>
+		<option value="positive">正</option>
+		<option value="inverse">逆</option>
+	</select>
+</div>
+
+<hr style="border:3px dashed #0066CC;"></hr>
+
+<div class="form-group" style="margin:1%;">
+	<label style="display: flex;justify-content: center;font-size:25px;">第二張</label>
+</div>
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-control form-control-lg" aria-label="Default select example" id = "Card02" TarotCard="02">
+	</select>
+</div>
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-select" aria-label="Default select example" CardSelectStatus="02" id="CardStatus1">
+	<option value="">請選擇</option>
+	<option value="positive">正</option>
+	<option value="inverse">逆</option>
+	</select>
+</div>
+
+<hr style="border:3px dashed #0066CC;"></hr>
+
+<div class="form-group" style="margin:1%;">
+	<label style="display: flex;justify-content: center;font-size:25px;">第三張</label>
+</div>
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-control form-control-lg" aria-label="Default select example" class="form-select" aria-label="Default select example" id = "Card03" TarotCard="03">
+	</select>
+</div>
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-select" aria-label="Default select example" CardSelectStatus="03" id="CardStatus2">
+	<option value="">請選擇</option>
+	<option value="positive">正</option>
+	<option value="inverse">逆</option>
+	</select>
+</div>
+
+<hr style="border:3px dashed #0066CC;"></hr>
+
+<div class="form-group" style="margin:1%;">
+	<label style="display: flex;justify-content: center;font-size:25px;">第四張</label>
+</div>
+
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-control form-control-lg" aria-label="Default select example" class="form-select" aria-label="Default select example" id = "Card04" TarotCard="01">
+	</select>
+</div>
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-select" aria-label="Default select example" CardSelectStatus="04" id="CardStatus3">
+	<option value="">請選擇</option>
+	<option value="positive">正</option>
+	<option value="inverse">逆</option>
+	</select>
+</div>
+
+<hr style="border:3px dashed #0066CC;"></hr>
+
+<div class="form-group" style="margin:1%;">
+	<label style="display: flex;justify-content:center;font-size:25px;">第五張</label>
+</div>
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-control form-control-lg" aria-label="Default select example" class="form-select" aria-label="Default select example" id = "Card05" TarotCard="01">
+	</select>
+</div>
+
+<div class="form-group" style="margin:3%;">
+	<select class="form-select" aria-label="Default select example" CardSelectStatus="05" id="CardStatus4">
+	<option value="">請選擇</option>
+	<option value="positive">正</option>
+	<option value="inverse">逆</option>
+	</select>
+</div>
+
+<hr style="border:3px dashed #0066CC;"></hr>
+
+<div class="form-group" style="margin :0 auto;text-align :center;">
+	<input type="button" id="Ouput" class="btn btn-lg btn-primary" value="送出">
+	<input type="button" id="Clear" class="btn btn-lg btn-primary" value="清除">
+</div>
+
+<div  class="form-group" style="margin:3%;border-width:3px;border-style:dashed;border-color:#FFAF60;padding:5px;">
+
+<span style="display:inline;width:10%;" TarotImage="01"></span>
+<span TarotImage="02"></span>
+<span TarotImage="03"></span>
+<span TarotImage="04"></span>
+<span TarotImage="05"></span>
+
+<hr style="border:3px dashed #0066CC;"></hr>
+
+<div>
+	牌面：
+	<span CardName="00"></span>
+	<span CardName="01"></span>
+	<span CardName="02"></span>
+	<span CardName="03"></span>
+	<span CardName="04"></span>
+</div>
+
+<div>
+正逆：
+<span CardStatus="00"></span>
+<span CardStatus="01"></span>
+<span CardStatus="02"></span>
+<span CardStatus="03"></span>
+<span CardStatus="04"></span>
+</div>
+
+<div>
+	元素：
+	<span CardElement="00"></span>
+	<span CardElement="01"></span>
+	<span CardElement="02"></span>
+	<span CardElement="03"></span>
+	<span CardElement="04"></span>
+</div>
+
+<div>
+	元素數量：<span CardElementCount="CardElementCount"></span>
+</div>
+<div>
+	進退法(火、水、風、土)：<span CardElementCard="CardElementCard"></span>
+</div>
+<div>
+	帶牌法：<span CardDescriptionCard="CardDescriptionCard"></span>
+</div>
+<br>
+牌義：
+<br>
+<div>
+	<span CardInformation="00"></span>
+	<span CardInformation="01"></span>
+	<span CardInformation="02"></span>
+	<span CardInformation="03"></span>
+	<span CardInformation="04"></span>
+</div>
+
+
+</div>
+
+</body>
+
+
+<!--塔羅資料-->
+<script>
+	var tarotInformation = GetTarotCardInformation();
+</script>
+
+<!--參數宣告 -->
+<script>
+
+var OutputButton = document.getElementById("Ouput"); //送出Button
+var ClearButton = document.getElementById("Clear"); //清除Button
+var TarotCard = document.querySelectorAll("[TarotCard]"); //塔羅下拉清單
+var CardSelectStatus = document.querySelectorAll("select[CardSelectStatus]"); // 正逆下拉清單
+var CardName = document.querySelectorAll("[CardName]"); //牌面
+var CardStatus = document.querySelectorAll("[CardStatus]"); //正逆
+var CardElement = document.querySelectorAll("[CardElement]"); //元素
+var CardInformation = document.querySelectorAll("[CardInformation]"); //牌義
+var TarotImage = document.querySelectorAll("[TarotImage]"); //牌圖
+var CardElementCount = document.querySelectorAll("[CardElementCount]"); //元素數量
+var CardElementCard = document.querySelectorAll("[CardElementCard]"); //進退法
+var CardDescriptionCard = document.querySelectorAll("[CardDescriptionCard]"); //帶牌法
+
+var tarotCount = 0;
+
+var TarotImageFile = "TarotImage/";
+const cardStatusEnum = 
+{
+	positiveCN : "正",
+	positiveEN : "positive",
+	reversedCN : "逆",
+	water : "水",
+	fire : "火",
+	wind : "風",
+	earth : "土"
+};
+
+var elementCount = new Array();
+
+</script>
+
+<!-- Loadding -->
+<script>
+window.onload = function()
+{
+	GetTarotSelectData();
+	ClearButtonEvent();
+	OutputButtonEvent();
+}
+</script>
+
+<!-- 按鈕事件 -->
+<script>
+
+/*-----「清除」按鈕事件-----*/
+function ClearButtonEvent()
+{
+	ClearButton.onclick = function()
+	{
+		ClearTarotInformation();
+		ClearTarotSelectData();
+	}
+}
+
+/*-----「送出」按鈕事件-----*/
+function OutputButtonEvent()
+{
+	OutputButton.onclick = function()
+	{
+		ClearTarotInformation();
+		GetTarotInformation();
+	}
+}
+
+</script>
+
+<!-- 商業邏輯 -->
+<script>
+
+/*-----清除塔羅資訊-----*/
+function ClearTarotInformation()
+{
+	for(let i=0;i<TarotCard.length;i++)
+	{
+		CardName[i].innerHTML = ""; //顯示名稱
+		TarotImage[i].innerHTML = ""; //取得塔羅圖片
+		CardStatus[i].innerHTML = ""; //取得正逆位
+		CardInformation[i].innerHTML = ""; //取牌義	
+		CardElement[i].innerHTML = ""; //取得元素
+	}
+	CardElementCard[0].innerHTML = "";
+	CardElementCount[0].innerHTML = "";
+	CardDescriptionCard[0].innerHTML = "";
+}
+function ClearTarotSelectData()
+{
+	for(let i=0;i<TarotCard.length;i++)
+	{
+		TarotCard[i].value = "";
+		CardSelectStatus[i].value = "";
+	}
+
+}
+/*-----顯示並取得塔羅資訊-----*/
+function GetTarotInformation()
+{
+	tarotCount = 0;
+	let elementCountArray = new Array(); //取得元素個數
+	let descriptionCardNumberArray = new Array(); //	進退法帶數字
+	let descriptionCardElementArray = new Array(); //	進退法帶元素
+	let descriptionCardPlaceArray = new Array(); //	帶牌法帶名稱
+	let descriptionCardElementENArray = new Array(); //	帶牌法帶元素
+	let descriptionCardNameArray = new  Array();
+	
+	for(let i=0;i<TarotCard.length;i++)
+	{
+		if(TarotCard[i].value != "" && TarotCard[i].value != null)
+		{
+			let informationJSON = SelectTarotData(TarotCard[i].value);
+			let index = CardSelectStatus[i].selectedIndex;
+			let cardSelectStatusValue = CardSelectStatus[i].options[index].value;
+			let common = GetCommon(tarotCount);
+			//顯示名稱
+			CardName[i].innerHTML = common + TarotCard[i].value ; 
+			//取得塔羅圖片
+			GetTarotCardImage(cardSelectStatusValue,TarotImage[i],informationJSON); 
+			//取得正逆位
+			GetTarotCardStatus(common,cardSelectStatusValue,CardStatus[i],informationJSON); 
+			//取牌義
+			GetTarotCardDescription(cardSelectStatusValue,CardInformation[i],informationJSON); 
+			//取得元素
+			let outputCardElement = GetTarotCardElement(common,cardSelectStatusValue,CardElement[i],informationJSON);
+			elementCountArray.push(outputCardElement);
+			//	取得進退法、帶牌法資訊
+			if(informationJSON[0].Number.includes("-"))
+			{
+				let cardInfo = informationJSON[0].Number.split("-");
+				descriptionCardElementArray.push(outputCardElement);
+				descriptionCardNameArray.push(TarotCard[i].value);
+				descriptionCardNumberArray.push(Number(cardInfo[1]));
+				descriptionCardPlaceArray.push(cardInfo[1]);
+				descriptionCardElementENArray.push(cardInfo[0]);
+			}
+			
+			tarotCount ++;
+		}	
+	}
+	//取得元素數量
+	GetElementCountHTML(elementCountArray);
+	//取得進退法資訊
+	GetCardElementCard(descriptionCardNumberArray,descriptionCardElementArray,descriptionCardNameArray);
+	//取得帶牌法資訊
+	GetCardDescriptionCard(descriptionCardPlaceArray,descriptionCardElementENArray,descriptionCardNameArray);
+}
+
+//標點符號
+function GetCommon(tarotCount)
+{
+	if(tarotCount == 0)
+	{
+		return "";
+	}
+	else
+	{
+		return "、";
+	}
+}
+
+//取得元素數量
+function GetElementCountHTML(elementCountArray)
+{
+	let elementCountMessage = GetElementCount(elementCountArray);
+	
+	CardElementCount[0].innerHTML = elementCountMessage;
+}
+
+//取得進退法資訊
+function GetCardElementCard(descriptionCardNumberArray,descriptionCardElementArray,descriptionCardNameArray)
+{
+	CardElementCard[0].innerHTML = "";
+	var hasNumberArray = GetHasNumber(descriptionCardNumberArray);
+	let tarotCount = 0;
+	for(let i=0;i<hasNumberArray.length;i++)
+	{
+		let common = GetCommon(tarotCount);
+		let number = hasNumberArray[i];
+		CardElementCard[0].innerHTML +=  common + "「" + descriptionCardElementArray[number] + "：" + descriptionCardNameArray[number]+ "」";
+		tarotCount ++;
+	}
+}
+//取得帶牌法資訊
+function GetCardDescriptionCard(descriptionCardNumberArray,descriptionCardElementENArray,descriptionCardNameArray)
+{
+	CardDescriptionCard[0].innerHTML = "";
+	var hasNumberArray = GetDescriptionCardNumber(descriptionCardNumberArray);
+	let changeCardArray = new Array();
+	let deleteCardArray = new Array();
+	let tarotCount = 0;
+	for(let i=0;i<hasNumberArray.length;i++)
+	{
+		//取得帶牌法相關的塔羅牌名稱
+		let number = hasNumberArray[i];
+		let informationJSON = SelectTarotDataForNumber(descriptionCardNumberArray[number]);
+		for(let j=0;j<informationJSON.length;j++){
+			changeCardArray.push(informationJSON[j].Name);
+		}
+		
+		//取得欲要刪除之牌面名稱
+		deleteCardArray.push(descriptionCardNameArray[number]);
+	}
+	changeCardArray = changeCardArray.filter((value, index, self) => self.indexOf(value) === index);
+	deleteCardArray = deleteCardArray.filter((value, index, self) => self.indexOf(value) === index);
+	
+	//刪除不必要的牌
+	for(let i=0;i<deleteCardArray.length;i++)
+	{
+		let index = changeCardArray.indexOf(deleteCardArray[i]);
+		if(index !== -1)
+		{
+			changeCardArray.splice(index,1);
+		}
+	}
+	//顯示帶牌法之重點牌
+	for(let i=0;i<changeCardArray.length;i++)
+	{
+		let common = GetCommon(tarotCount);
+		CardDescriptionCard[0].innerHTML +=  common + "「" + changeCardArray[i] + "」";
+		tarotCount++;
+	}
+}
+
+//-----取得塔羅圖片-----
+function GetTarotCardImage(cardSelectStatusValue,TarotImage,informationJSON)
+{
+	if(cardSelectStatusValue == cardStatusEnum.positiveEN)
+	{
+		let dir = TarotImageFile + informationJSON[0].Number +".png";
+		TarotImage.innerHTML = "<img src=\""+dir+"\" width=\"15%\"\">";
+	}
+	else
+	{
+		let dir = TarotImageFile + informationJSON[0].Number +".png";
+		TarotImage.innerHTML = "<img src=\""+dir+"\" width=\"15%\" style=\"transform:rotate(180deg);\">";
+	}
+}
+
+//-----取得正逆位-----
+function GetTarotCardStatus(common,cardSelectStatusValue,CardStatus,informationJSON)
+{
+	let tarotName = informationJSON[0].Name;
+	if(cardSelectStatusValue == cardStatusEnum.positiveEN)
+	{
+		CardStatus.innerHTML = common + cardStatusEnum.positiveCN;
+	}
+	else
+	{
+		CardStatus.innerHTML = common + cardStatusEnum.reversedCN;
+	}
+}
+
+//-----取得牌義-----
+function GetTarotCardDescription(cardSelectStatusValue,CardInformation,informationJSON)
+{
+	let tarotName = informationJSON[0].Name;
+	if(cardSelectStatusValue == cardStatusEnum.positiveEN)
+	{
+		CardInformation.innerHTML = tarotName + "-" + cardStatusEnum.positiveCN +"：" + informationJSON[0].InformationKeyY+ "<br>";
+	}
+	else
+	{
+		CardInformation.innerHTML = tarotName + "-" + cardStatusEnum.reversedCN +"：" + informationJSON[0].InformationKeyS + "<br>";
+	}
+}
+
+//-----取得元素-----
+function GetTarotCardElement(common,cardSelectStatusValue,CardElement,informationJSON)
+{
+	let output = "";
+	if(cardSelectStatusValue == cardStatusEnum.positiveEN)
+	{
+		CardElement.innerHTML = common + informationJSON[0].element;
+		output = informationJSON[0].element;
+	}
+	else
+	{
+		output = GetTarotElementS(common,informationJSON[0].element,CardElement);
+	}
+	
+	return output;
+}
+
+function GetTarotElementS(common,TarotElement,CardElement)
+{
+	let output = "";
+	switch(TarotElement)
+	{
+		case cardStatusEnum.fire:
+			CardElement.innerHTML = common + cardStatusEnum.water;
+			output = cardStatusEnum.water;
+			break;
+		case cardStatusEnum.water:
+			CardElement.innerHTML = common + cardStatusEnum.fire;
+			output = cardStatusEnum.fire;
+			break;
+		case cardStatusEnum.wind:
+			CardElement.innerHTML = common + cardStatusEnum.earth;
+			output = cardStatusEnum.earth;
+			break;
+		case cardStatusEnum.earth:
+			CardElement.innerHTML = common + cardStatusEnum.wind;
+			output = cardStatusEnum.wind;
+			break;
+	}
+	return output;
+}
+
+/*-----Select顯示塔羅牌名稱-----*/
+function GetTarotSelectData()
+{
+	for(let i=0;i < TarotCard.length;i++)
+	{
+		TarotCard[i].innerHTML += "<option value=\""+""+"\">" + "請選擇" + "</option>";
+
+		for(let j=0;j<tarotInformation.length;j++)
+		{
+			TarotCard[i].innerHTML += "<option value=\""+tarotInformation[j].Name+"\">" + tarotInformation[j].Name + "</option>";
+		}
+	}
+}
+
+/*-----算出各項元素有幾個------*/
+function GetElementCount(cardJson)
+{
+	let fireCount = 0;
+	let waterCount = 0;
+	let windCount = 0;
+	let earthCount = 0;
+
+	for(let i=0;i<cardJson.length;i++)
+	{
+		if(cardJson[i] == cardStatusEnum.fire)
+		{
+			fireCount = fireCount + 1;
+		}
+		if(cardJson[i] == cardStatusEnum.water)
+		{
+			waterCount = waterCount + 1;
+		}
+		if(cardJson[i] == cardStatusEnum.wind)
+		{
+			windCount = windCount + 1;
+		}
+		if(cardJson[i] == cardStatusEnum.earth)
+		{
+			earthCount = earthCount + 1;
+		}
+	}
+	
+	return "「火：" + fireCount +"個」" + "、" + "「水：" + waterCount +"個」" + "、" + "「風：" + windCount +"個」" + "、" + "「土：" + earthCount + "個」";
+}
+
+/*-----Json資料篩選-----*/
+function SelectTarotData(TarotName){
+	var output = tarotInformation.filter(item => item.Name == TarotName);
+	
+	return output;
+}
+function SelectTarotDataForNumber(TarotNumber){
+	var output = tarotInformation.filter(item => item.Number.includes("-"+TarotNumber));
+	
+	return output;
+}
+
+/*----計算進退法公式-----*/
+function GetHasNumber(array)
+{
+	var a = new Array();
+	for(let i=0;i<array.length;i++)
+	{
+		for(let j=i+1;j < array.length;j++)
+		{
+			if(((array[j]-array[i]) == 1) || ((array[j]-array[i]) == -1))
+			{
+				a.push(i);
+				a.push(j);
+			}
+		}
+	}
+	return a.filter((value, index, self) => self.indexOf(value) === index);
+}
+
+/*----計算帶牌法公式-----*/
+function GetDescriptionCardNumber(array)
+{
+	var a = new Array();
+	for(let i=0;i<array.length;i++)
+	{
+		for(let j=i+1;j < array.length;j++)
+		{
+			if(array[j] == array[i])
+			{
+				a.push(i);
+				a.push(j);
+			}
+		}
+	}
+	return a.filter((value, index, self) => self.indexOf(value) === index);
+}
+
+
+</script>
+
+
+</html>
