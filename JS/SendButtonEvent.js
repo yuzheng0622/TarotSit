@@ -38,7 +38,7 @@ function GetTarotInformation()
 			let cardSelectStatusValue = CardSelectStatus[i].options[index].value;
 			let common = GetCommon(tarotCount);
 			//顯示名稱
-			CardName[i].innerHTML = common + TarotCard[i].value ; 
+			CardName[i].innerHTML = common + informationJSON[0].Name ; 
 			//取得塔羅圖片
 			GetTarotCardImage(cardSelectStatusValue,TarotImage[i],informationJSON); 
 			//取得正逆位

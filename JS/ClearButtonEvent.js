@@ -4,7 +4,7 @@ function ClearButtonEvent()
 	ClearButton.onclick = function()
 	{
 		ClearTarotInformation();
-		ClearTarotSelectData();
+		//ClearTarotSelectData();
 	}
 }
 
