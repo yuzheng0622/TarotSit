@@ -25,7 +25,7 @@ var tarotInformation =
 	},
 	{
 		Name:'女皇',
-		Number:'03.The Mepress',
+		Number:'03.The Emepress',
 		element:'土',
 		InformationKeyY:'富貴、富裕、豐收、豐盛、優抹、金錢、安逸、穩定、愛情、溫柔、婚姻、懷孕、生產力、親密關係',
 		InformationKeyS:'浪費、貪婪、不實、奢侈、小產、墮胎、氣質平庸、量產缺失、收入減低、物慾重、不真誠、爛桃花'
