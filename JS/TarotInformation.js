@@ -4,154 +4,154 @@ var tarotInformation =
 [
 	{
 		Name:'愚人',
-		Number:'00.The Fool',
+		Number:'Big-00.The Fool',
 		element:'風',
 		InformationKeyY:'幻想、夢想、希望、自由、直率、天真、聰明、孩子氣、標新立異、不拘小節、超脫世俗、面對阻礙、充滿期待',
 		InformationKeyS:'退縮、害怕、擔心、意外、無能、不和、矛盾、故步自封、任人擺布、推三阻四、停留過去'
 	},
 	{
 		Name:'魔術師',
-		Number:'01.The Magician',
+		Number:'Big-01.The Magician',
 		element:'風',
 		InformationKeyY:'起點、開始、創造、顯化、表演、表達、溝通、思考、雄心壯志、目標明確、蓄勢待發、才華洋溢、聰明靈活',
 		InformationKeyS:'停頓、遲緩、焦慮、沮喪、欺騙、狡猾、沒有目標、失去方向、無法掌握、情緒不穩、發展不順、溝通障礙、思緒混沌'
 	},
 	{
 		Name:'女祭司',
-		Number:'02.The High Priestess',
+		Number:'Big-02.The High Priestess',
 		element:'水',
 		InformationKeyY:'冷靜、直覺、膽怯、壓抑、謹慎、害羞、陰柔、相當被動、精神不穩、多愁善感、鑽牛角尖、優柔寡斷、神經質',
 		InformationKeyS:'實在、現實、活躍、大膽、理性、主動、積極、直接、善變、充滿魅力、展現自我、被誘惑、性格外向'
 	},
 	{
 		Name:'女皇',
-		Number:'03.The Emepress',
+		Number:'Big-03.The Emepress',
 		element:'土',
 		InformationKeyY:'富貴、富裕、豐收、豐盛、優抹、金錢、安逸、穩定、愛情、溫柔、婚姻、懷孕、生產力、親密關係',
 		InformationKeyS:'浪費、貪婪、不實、奢侈、小產、墮胎、氣質平庸、量產缺失、收入減低、物慾重、不真誠、爛桃花'
 	},
 	{
 		Name:'皇帝',
-		Number:'04.The Emperor',
+		Number:'Big-04.The Emperor',
 		element:'火',
 		InformationKeyY:'全力、財力、安定、安穩、成功、驕傲、積極、勇猛、領導、主動、掌控、指揮、企圖心、目中無人',
 		InformationKeyS:'暴力、慾望、攻擊、傷害、殘暴、侵略、鬥爭、奪走、消耗、佔有慾、侵略心、缺乏同理'
 	},
 	{
 		Name:'教皇',
-		Number:'05.The Hierophant',
+		Number:'Big-05.The Hierophant',
 		element:'土',
 		InformationKeyY:'導師、付出、智慧、神性、靈性、開悟、信仰、服務、分享、祝福、給予者、指引方向、舊式思維',
 		InformationKeyS:'學生、收取、要求、需求、交換、離開、進修、不付出、缺乏耐性、突破現狀'
 	},
 	{
 		Name:'戀人',
-		Number:'06.The Lovers',
+		Number:'Big-06.The Lovers',
 		element:'風',
 		InformationKeyY:'愛情、戀愛、合作、合夥、夥伴、婚姻、耐心、互信、付出、收穫、幸福、成長、良好關係、一見鍾情',
 		InformationKeyS:'分手、不合、拆夥、爭執、鬥爭、對立、怨恨、阻礙、疑心、不愉快、交流停止、貌合神離'
 	},
 	{
 		Name:'戰車',
-		Number:'07.The Chariot',
+		Number:'Big-07.The Chariot',
 		element:'水',
 		InformationKeyY:'行動、家庭、結合、發展、擴大、保護、短程旅行、交通工具',
 		InformationKeyS:'停滯、束縛、卡住、意外、暴力、突發狀況、無法掌握、腹背受敵'
 	},
 	{
 		Name:'力量',
-		Number:'08.Strength',
+		Number:'Big-08.Strength',
 		element:'火',
 		InformationKeyY:'堅持、忍耐、和平、控制、管理、細心、小心、有勇氣、有耐心、不屈不饒',
 		InformationKeyS:'暴躁、反擊、爭執、鬥爭、易怒、失去耐心、失去信心、不受控制'
 	},
 	{
 		Name:'隱士',
-		Number:'09.The Hermit',
+		Number:'Big-09.The Hermit',
 		element:'土',
 		InformationKeyY:'正位：思考、找尋、內省、理性、沉默、潛意識、想像力、找到方向、目標明確',
 		InformationKeyS:'迷惑、膽怯、停滯、失敗、失去方向、心不在焉、沒有目標'
 	},
 	{
 		Name:'命運之輪',
-		Number:'10.Wheel of Fortune',
+		Number:'Big-10.Wheel of Fortune',
 		element:'火',
 		InformationKeyY:'轉動、機會、發展、希望、升遷、變動、起點、終點、過程、因果關係',
 		InformationKeyS:'停滯、暫停、意外、困難、強迫、時間未到、無動於衷'
 	},
 	{
 		Name:'正義',
-		Number:'11.The Justice',
+		Number:'Big-11.The Justice',
 		element:'風',
 		InformationKeyY:'公平、公正、穩固、法則、契約、法律、對稱、均衡、理性',
 		InformationKeyS:'犯法、不平衡、不公道、不穩定、不理性、官司訴訟、拒絕互動、合約問題'
 	},
 	{
 		Name:'吊人',
-		Number:'12.The Hanged Man',
+		Number:'Big-12.The Hanged Man',
 		element:'水',
 		InformationKeyY:'等待、期盼、堅持、耐心、忍耐、束縛、遲緩、奉獻、犧牲、作繭自縛',
 		InformationKeyS:'離去、掙脫、釋放、放棄、不等待、不堅持、不拖延、重新調整、過程快速、尋找目標'
 	},
 	{
 		Name:'死神',
-		Number:'13.The Death',
+		Number:'Big-13.The Death',
 		element:'水',
 		InformationKeyY:'過程、渡過、轉機、生機、重生、服從、宿命、冥冥之中、順其自然、生死交關',
 		InformationKeyS:'死亡、掙扎、絕望、痛苦、停止、失望、怨念、不願意、沒自信、不願放棄'
 	},
 	{
 		Name:'節制',
-		Number:'14.Temperance',
+		Number:'Big-14.Temperance',
 		element:'火',
 		InformationKeyY:'旅行、遠行、遠距離、教育、溝通、互動、細心、智慧',
 		InformationKeyS:'不對等、近距離、不理性、粗心、不良互動、缺乏溝通、停止交流'
 	},
 	{
 		Name:'惡魔',
-		Number:'15.The Devil',
+		Number:'Big-15.The Devil',
 		element:'土',
 		InformationKeyY:'緣分；宿命、前世、金錢、物慾、野心、合夥、性欲、合作關係、姻緣關係',
 		InformationKeyS:'糾纏、離開、分手、破局、敵對、縱慾、壞姻緣、失去控制、業力糾纏'
 	},
 	{
 		Name:'高塔',
-		Number:'16.The Tower',
+		Number:'Big-16.The Tower',
 		element:'火',
 		InformationKeyY:'破壞；崩塌、傷害、遇難、衝突、暴力、被干擾、突發事件、被迫改變',
 		InformationKeyS:'內亂；慢性破壞、自我衝突、飛來橫禍、不好意圖、暗中破壞'
 	},
 	{
 		Name:'星星',
-		Number:'17.The Star',
+		Number:'Big-17.The Star',
 		element:'風',
 		InformationKeyY:'希望、懷孕、付出、投資、探索、內在智慧、因果關係、方向正確',
 		InformationKeyS:'挫折、失望、心靈匱乏、缺乏靈感、事與韞違'
 	},
 	{
 		Name:'月亮',
-		Number:'18.The Moon',
+		Number:'Big-18.The Moon',
 		element:'水',
 		InformationKeyY:'母性、直覺；幻覺、幻象、阻礙、潛意識、曖昧不明、尋找方向',
 		InformationKeyS:'呈現、發現、不穩定、阻礙減少、負能量、狀況達成'
 	},
 	{
 		Name:'太陽',
-		Number:'19.The Sun',
+		Number:'Big-19.The Sun',
 		element:'火',
 		InformationKeyY:'能量；動力；復甦；復活、朝氣、好運勢、步步高升、能力展現、重見光明、蓬勃發展、新的氣象',
 		InformationKeyS:'暗夜、冷靜、僵化、缺乏動力、反面、暫停、發展停頓、臨門一腳'
 	},
 	{
 		Name:'審判',
-		Number:'20.Judgement',
+		Number:'Big-20.Judgement',
 		element:'水',
 		InformationKeyY:'賞罰、救贖、機會、復甦、重生、轉機、改善、生機、貴人、接納過去',
 		InformationKeyS:'消極、等待、沒有希望、等待救助、希望落空、時機未到'
 	},
 	{
 		Name:'世界',
-		Number:'21.The World',
+		Number:'Big-21.The World',
 		element:'土',
 		InformationKeyY:'圓滿、成功、亨通、停止、封頂、堅定、穩重、守成、好的結果',
 		InformationKeyS:'受困、缺憾、臨門一腳、不夠完整、不穩重、尚未達成、沒有緣分'

@@ -27,6 +27,6 @@ function ClearTarotSelectData()
 	{
 		TarotCard[i].value = "";
 		CardSelectStatus[i].value = "";
+		CardType[i].value = "";
 	}
-
 }

@@ -14,6 +14,7 @@
   <script src="JS/TarotCardStatus.js"></script>
   <script src="JS/TarotCardElement.js"></script>
   <script src="JS/TarotCardDescription.js"></script>
+  <script src="JS/CardTypeSelectEvent.js"></script>
 </head>
 
 <style>
@@ -27,6 +28,17 @@
 
 <div class="form-group" style="margin:1%;">
 	<label style="display: flex;justify-content: center;font-size:25px;">第一張</label>
+</div>
+
+<div class="form-group" style="margin:2%;">
+	<select class="form-control form-control-lg" id = "CardType01" CardType="01">
+		<option value="">請選擇</option>
+		<option value="Big">大牌</option>
+		<option value="Wands">權杖</option>
+		<option value="Cup">聖杯</option>
+		<option value="Swords">寶劍</option>
+		<option value="Pentacles">錢幣</option>
+	</select>
 </div>
 
 <div class="form-group" style="margin:2%;">
@@ -48,12 +60,23 @@
 	<label style="display: flex;justify-content: center;font-size:25px;">第二張</label>
 </div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
+	<select class="form-control form-control-lg" id = "CardType02" CardType="02">
+		<option value="">請選擇</option>
+		<option value="Big">大牌</option>
+		<option value="Wands">權杖</option>
+		<option value="Cup">聖杯</option>
+		<option value="Swords">寶劍</option>
+		<option value="Pentacles">錢幣</option>
+	</select>
+</div>
+
+<div class="form-group" style="margin:2%;">
 	<select class="form-control form-control-lg" aria-label="Default select example" id = "Card02" TarotCard="02">
 	</select>
 </div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
 	<select class="form-select" aria-label="Default select example" CardSelectStatus="02" id="CardStatus1">
 	<option value="">請選擇</option>
 	<option value="positive">正</option>
@@ -67,12 +90,23 @@
 	<label style="display: flex;justify-content: center;font-size:25px;">第三張</label>
 </div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
+	<select class="form-control form-control-lg" id = "CardType03" CardType="03">
+		<option value="">請選擇</option>
+		<option value="Big">大牌</option>
+		<option value="Wands">權杖</option>
+		<option value="Cup">聖杯</option>
+		<option value="Swords">寶劍</option>
+		<option value="Pentacles">錢幣</option>
+	</select>
+</div>
+
+<div class="form-group" style="margin:2%;">
 	<select class="form-control form-control-lg" aria-label="Default select example" class="form-select" aria-label="Default select example" id = "Card03" TarotCard="03">
 	</select>
 </div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
 	<select class="form-select" aria-label="Default select example" CardSelectStatus="03" id="CardStatus2">
 	<option value="">請選擇</option>
 	<option value="positive">正</option>
@@ -86,13 +120,23 @@
 	<label style="display: flex;justify-content: center;font-size:25px;">第四張</label>
 </div>
 
+<div class="form-group" style="margin:2%;">
+	<select class="form-control form-control-lg" id = "CardType04" CardType="04">
+		<option value="">請選擇</option>
+		<option value="Big">大牌</option>
+		<option value="Wands">權杖</option>
+		<option value="Cup">聖杯</option>
+		<option value="Swords">寶劍</option>
+		<option value="Pentacles">錢幣</option>
+	</select>
+</div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
 	<select class="form-control form-control-lg" aria-label="Default select example" class="form-select" aria-label="Default select example" id = "Card04" TarotCard="01">
 	</select>
 </div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
 	<select class="form-select" aria-label="Default select example" CardSelectStatus="04" id="CardStatus3">
 	<option value="">請選擇</option>
 	<option value="positive">正</option>
@@ -106,12 +150,23 @@
 	<label style="display: flex;justify-content:center;font-size:25px;">第五張</label>
 </div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
+	<select class="form-control form-control-lg" id = "CardType05" CardType="05">
+		<option value="">請選擇</option>
+		<option value="Big">大牌</option>
+		<option value="Wands">權杖</option>
+		<option value="Cup">聖杯</option>
+		<option value="Swords">寶劍</option>
+		<option value="Pentacles">錢幣</option>
+	</select>
+</div>
+
+<div class="form-group" style="margin:2%;">
 	<select class="form-control form-control-lg" aria-label="Default select example" class="form-select" aria-label="Default select example" id = "Card05" TarotCard="01">
 	</select>
 </div>
 
-<div class="form-group" style="margin:3%;">
+<div class="form-group" style="margin:2%;">
 	<select class="form-select" aria-label="Default select example" CardSelectStatus="05" id="CardStatus4">
 	<option value="">請選擇</option>
 	<option value="positive">正</option>
@@ -197,6 +252,7 @@ var ClearButton = document.getElementById("Clear"); //清除Button
 var TarotCard = document.querySelectorAll("[TarotCard]"); //塔羅下拉清單
 var CardSelectStatus = document.querySelectorAll("select[CardSelectStatus]"); // 正逆下拉清單
 var CardName = document.querySelectorAll("[CardName]"); //牌面
+var CardType = document.querySelectorAll("[CardType]"); // 分辨大牌、權杖、聖杯、寶劍、錢幣
 var CardStatus = document.querySelectorAll("[CardStatus]"); //正逆
 var CardElement = document.querySelectorAll("[CardElement]"); //元素
 var CardInformation = document.querySelectorAll("[CardInformation]"); //牌義
@@ -228,6 +284,7 @@ window.onload = function()
 	GetTarotSelectData(); //顯示Select塔羅牌名稱
 	ClearButtonEvent(); //清除按鈕事件
 	OutputButtonEvent(); //送出按鈕事件
+	GetCardTypeButtonOnclik();
 }
 </script>
 
