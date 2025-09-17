@@ -20,6 +20,7 @@ function CheckHighLine(){
 			for(let i=0;i<TarotImageSrc.length;i++){
 				if(TarotImageSrc[i].getAttribute("cardstatusimage").includes("positive")){
 					TarotImageSrc[i].setAttribute("style","border:3px dashed #FF0000;");
+					CardInformation[i].setAttribute("style","color:#FF0000;");
 				}
 			}
 		}
@@ -30,6 +31,7 @@ function CheckHighLine(){
 				if(TarotImageSrc[i].getAttribute("cardstatusimage").includes("inverse")){
 					let oldStyle = TarotImageSrc[i].getAttribute("style");
 					TarotImageSrc[i].setAttribute("style",oldStyle + "border:3px dashed #FF0000;");
+					CardInformation[i].setAttribute("style","color:#FF0000;");
 				}
 			}
 		}
