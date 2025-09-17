@@ -53,6 +53,7 @@ function GetTarotInformation()
 			tarotCount ++;
 		}	
 	}
+		CheckHighLine();
 	//取得元素數量
 	GetElementCountHTML(elementCountArray);
 }

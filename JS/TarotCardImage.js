@@ -4,11 +4,11 @@ function GetTarotCardImage(cardSelectStatusValue,TarotImage,informationJSON)
 	if(cardSelectStatusValue == cardStatusEnum.positiveEN)
 	{
 		let dir = TarotImageFile + informationJSON[0].Number +".png";
-		TarotImage.innerHTML = "<img src=\""+dir+"\" width=\"15%\"\">";
+		TarotImage.innerHTML = "<img src=\""+dir+"\" width=\"15%\"\" CardStatusImage=\""+ cardSelectStatusValue +"\">";
 	}
 	else
 	{
 		let dir = TarotImageFile + informationJSON[0].Number +".png";
-		TarotImage.innerHTML = "<img src=\""+dir+"\" width=\"15%\" style=\"transform:rotate(180deg);\">";
+		TarotImage.innerHTML = "<img src=\""+dir+"\" width=\"15%\" style=\"transform:rotate(180deg);\" CardStatusImage=\""+ cardSelectStatusValue +"\">";
 	}
 }
