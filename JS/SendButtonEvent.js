@@ -17,6 +17,7 @@ function ClearTarotInformationForSend()
 		TarotImage[i].innerHTML = ""; //取得塔羅圖片
 		CardStatus[i].innerHTML = ""; //取得正逆位
 		CardInformation[i].innerHTML = ""; //取牌義	
+		CardInformation[i].setAttribute("style"," ");
 		CardElement[i].innerHTML = ""; //取得元素
 	}
 }
