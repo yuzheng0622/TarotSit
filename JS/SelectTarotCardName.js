@@ -4,7 +4,9 @@ function GetTarotSelectData()
 	{
 		for(let j=0;j<tarotInformation.length;j++)
 		{
-			TarotCard[i].innerHTML += "<option value=\""+tarotInformation[j].Number+"\">" + tarotInformation[j].Name + "</option>";
+			if(tarotInformation[j].Number.includes("Big")){
+				TarotCard[i].innerHTML += "<option value=\""+tarotInformation[j].Number+"\">" + tarotInformation[j].Name + "</option>";
+			}
 		}
 	}
 }
