@@ -28,7 +28,6 @@ function GetTarotInformation()
 	tarotCount = 0;
 	
 	let elementCountArray = new Array(); //取得元素個數
-	let descriptionCardNameArray = new  Array();
 	
 	for(let i=0;i<TarotCard.length;i++)
 	{
@@ -54,7 +53,10 @@ function GetTarotInformation()
 			tarotCount ++;
 		}	
 	}
-		CheckHighLine();
+	//將重點牌顯示出來
+	CheckHighLine();
+	//檢查是否有帶牌法
+	CheckFormula();
 	//取得元素數量
 	GetElementCountHTML(elementCountArray);
 }

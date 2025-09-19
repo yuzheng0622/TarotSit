@@ -2,17 +2,28 @@
 
 function CheckHighLine(){
 	var TarotImageSrc = document.querySelectorAll("[cardstatusimage]"); //Src卡圖
-	var positiveValue = 0;
-	var inverseValue = 0;
 
-	for(let i=0;i<TarotImageSrc.length;i++){
-		if(TarotImageSrc[i].getAttribute("cardstatusimage").includes("positive")){
-			positiveValue = positiveValue + 1;
-		}
-		if(TarotImageSrc[i].getAttribute("cardstatusimage").includes("inverse")){
-			inverseValue = inverseValue + 1;
-		}
-	}
+	//取得有多少正位、有多少逆位
+	const { positiveValue, inverseValue } = GetTarotPositiveValueAndinverseValue(TarotImageSrc);
+
+	//若正逆位都有的話
+	GetTarotCardCheckCount(positiveValue,inverseValue,TarotImageSrc);
+}
+
+function GetTarotPositiveValueAndinverseValue(images){
+ 	let positiveValue = 0;
+    let inverseValue = 0;
+
+    images.forEach(img => {
+        const status = img.getAttribute("cardstatusimage");
+        if (status.includes("positive")) positiveValue++;
+        if (status.includes("inverse")) inverseValue++;
+    });
+
+    return { positiveValue, inverseValue };
+}
+
+function GetTarotCardCheckCount(positiveValue,inverseValue,TarotImageSrc){
 
 	if(positiveValue != 0 && inverseValue != 0){
 		// 若是正位<逆位，使用迴圈檢查，HighLine正位的圖片

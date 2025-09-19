@@ -18,6 +18,7 @@
   <script src="JS/TarotCardDescription.js"></script>
   <script src="JS/CardTypeSelectEvent.js"></script>
   <script src="JS/TarotCardCheck.js"></script>
+  <script src="JS/FormulaButtonEvent.js"></script>
 </head>
 
 <style>
@@ -171,9 +172,11 @@
 
 <div class="form-group" style="margin :0 auto;text-align :center;">
 	<input type="button" id="Ouput" class="btn btn-lg btn-primary" value="送出">
-	<!--<input type="button" id="Clear" class="btn btn-lg btn-primary" value="清除">-->
 </div>
 
+<div  class="form-group" style="margin:3%;border-width:3px;padding:5px;">
+	<input type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="FormulaButtonEvent();" id="FormulaButton" class="btn btn-outline-warning" style="display:none;" value="帶牌法">
+</div>
 <div  class="form-group" style="margin:3%;border-width:3px;border-style:dashed;border-color:#FFAF60;padding:5px;">
 
 <span style="display:inline;width:10%;" TarotImage="01"></span>
@@ -215,7 +218,7 @@
 	元素數量：<span CardElementCount="CardElementCount"></span>
 </div>
 
- <hr style="height:5px;border:none;border-top:2px dotted #0000E3; border-width:5px;" />
+<hr style="height:5px;border:none;border-top:2px dotted #0000E3; border-width:5px;" />
 牌義：
 <br>
 <div>
@@ -231,6 +234,22 @@
 
 </body>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id = "FormulaCardInfo">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!--塔羅資料-->
 <script>
@@ -239,7 +258,8 @@
 
 <!--參數宣告 -->
 <script>
-
+var FormulaCardInfo = document.getElementById("FormulaCardInfo"); //帶牌法modal
+var FormulaButton = document.getElementById("FormulaButton"); //帶牌法
 var OutputButton = document.getElementById("Ouput"); //送出Button
 var ClearButton = document.getElementById("Clear"); //清除Button
 var TarotCard = document.querySelectorAll("[TarotCard]"); //塔羅下拉清單
@@ -329,9 +349,14 @@ function SelectTarotData(TarotName){
 	
 	return output;
 }
-function SelectTarotDataForNumber(TarotNumber){
-	var output = tarotInformation.filter(item => item.Number.includes("-"+TarotNumber));
+function SelectTarotDataIncludes(TarotName){
+	var output = tarotInformation.filter(item => item.Number.includes(TarotName));
 	
+	return output;
+}
+function SelectTarotDataForNumber(TarotNumberAry){
+	const output = tarotInformation.filter(item => TarotNumberAry.includes(item.Number.split('-')[1]) && !item.Number.includes("Big"));
+
 	return output;
 }
 
