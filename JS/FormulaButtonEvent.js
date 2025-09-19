@@ -60,7 +60,7 @@ function GetFormulaContForTwoNumber(inputNumberArray){
  		return acc;
 	}, {});
 
-	const filteredArray = notRePeatNumber.filter(item => countMap[item] < 3);
+	const filteredArray = notRePeatNumber.filter(item => countMap[item] < 3 && countMap[item] > 1);
 
 	return filteredArray;
 }
