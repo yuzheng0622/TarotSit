@@ -90,467 +90,467 @@ var tarotInformation =
 		Name:'吊人',
 		Number:'Big-12.The Hanged Man',
 		element:'水',
-		InformationKeyY:'等待、期盼、堅持、耐心、忍耐、束縛、遲緩、奉獻、犧牲、作繭自縛',
-		InformationKeyS:'離去、掙脫、釋放、放棄、不等待、不堅持、不拖延、重新調整、過程快速、尋找目標'
+		InformationKeyY:'堅持、耐心、犧牲奉獻、作繭自縛',
+		InformationKeyS:'掙脫、不堅持、不等待、重新調整'
 	},
 	{
 		Name:'死神',
 		Number:'Big-13.The Death',
 		element:'水',
-		InformationKeyY:'過程、渡過、轉機、生機、重生、服從、宿命、冥冥之中、順其自然、生死交關',
-		InformationKeyS:'死亡、掙扎、絕望、痛苦、停止、失望、怨念、不願意、沒自信、不願放棄'
+		InformationKeyY:'過渡期、重生、順其自然、轉機',
+		InformationKeyS:'失望、掙扎、不自信、停止'
 	},
 	{
 		Name:'節制',
 		Number:'Big-14.Temperance',
 		element:'火',
-		InformationKeyY:'旅行、遠行、遠距離、教育、溝通、互動、細心、智慧',
-		InformationKeyS:'不對等、近距離、不理性、粗心、不良互動、缺乏溝通、停止交流'
+		InformationKeyY:'耐心溝通、智慧、互動',
+		InformationKeyS:'粗心、不理性、缺乏溝通、停止交流'
 	},
 	{
 		Name:'惡魔',
 		Number:'Big-15.The Devil',
 		element:'土',
-		InformationKeyY:'緣分；宿命、前世、金錢、物慾、野心、合夥、性欲、合作關係、姻緣關係',
-		InformationKeyS:'糾纏、離開、分手、破局、敵對、縱慾、壞姻緣、失去控制、業力糾纏'
+		InformationKeyY:'緣分、慾望、利益關係、沉默成本、前任',
+		InformationKeyS:'糾纏、分手、分分合合、破局'
 	},
 	{
 		Name:'高塔',
 		Number:'Big-16.The Tower',
 		element:'火',
-		InformationKeyY:'破壞；崩塌、傷害、遇難、衝突、暴力、被干擾、突發事件、被迫改變',
-		InformationKeyS:'內亂；慢性破壞、自我衝突、飛來橫禍、不好意圖、暗中破壞'
+		InformationKeyY:'意外狀況、崩塌、傷害',
+		InformationKeyS:'自我衝突、暗中破壞'
 	},
 	{
 		Name:'星星',
 		Number:'Big-17.The Star',
 		element:'風',
-		InformationKeyY:'希望、懷孕、付出、投資、探索、內在智慧、因果關係、方向正確',
-		InformationKeyS:'挫折、失望、心靈匱乏、缺乏靈感、事與韞違'
+		InformationKeyY:'內在智慧、付出、方向正確、心想事成',
+		InformationKeyS:'失望、事與願違、心靈匱乏'
 	},
 	{
 		Name:'月亮',
 		Number:'Big-18.The Moon',
 		element:'水',
-		InformationKeyY:'母性、直覺；幻覺、幻象、阻礙、潛意識、曖昧不明、尋找方向',
-		InformationKeyS:'呈現、發現、不穩定、阻礙減少、負能量、狀況達成'
+		InformationKeyY:'阻礙、幻覺、迷茫',
+		InformationKeyS:'發現、阻礙減少、嘗試探索'
 	},
 	{
 		Name:'太陽',
 		Number:'Big-19.The Sun',
 		element:'火',
-		InformationKeyY:'能量；動力；復甦；復活、朝氣、好運勢、步步高升、能力展現、重見光明、蓬勃發展、新的氣象',
-		InformationKeyS:'暗夜、冷靜、僵化、缺乏動力、反面、暫停、發展停頓、臨門一腳'
+		InformationKeyY:'動力、步步高升、重見光明',
+		InformationKeyS:'臨門一腳、發展停頓、缺乏動力'
 	},
 	{
 		Name:'審判',
 		Number:'Big-20.Judgement',
 		element:'水',
-		InformationKeyY:'賞罰、救贖、機會、復甦、重生、轉機、改善、生機、貴人、接納過去',
-		InformationKeyS:'消極、等待、沒有希望、等待救助、希望落空、時機未到'
+		InformationKeyY:'復甦、重生、轉機、貴人',
+		InformationKeyS:'沒有希望、等待救援、時機未到'
 	},
 	{
 		Name:'世界',
 		Number:'Big-21.The World',
 		element:'土',
-		InformationKeyY:'圓滿、成功、亨通、停止、封頂、堅定、穩重、守成、好的結果',
-		InformationKeyS:'受困、缺憾、臨門一腳、不夠完整、不穩重、尚未達成、沒有緣分'
+		InformationKeyY:'圓滿、成功、巔峰、好結果',
+		InformationKeyS:'受困、遺憾、臨門一腳'
 	},
 	/*----------權杖 Wands-------------*/
 	{
 		Name:'權杖一',
 		Number:'Wands-01',
 		element:'火',
-		InformationKeyY:'發展、開創、行動力、進展迅速',
-		InformationKeyS:'停止、冷卻、無力、缺乏動力'
+		InformationKeyY:'開始、起點、行動力',
+		InformationKeyS:'缺乏動力、停滯、消極'
 	},
 	{
 		Name:'權杖二',
 		Number:'Wands-02',
 		element:'火',
-		InformationKeyY:'遠行、旅行、遠距離、找到方向、目標明確',
-		InformationKeyS:'遠距離、沒有目標、計畫失策、出行困難'
+		InformationKeyY:'初始計畫、找到方向、目標明確',
+		InformationKeyS:'沒有目標、遠距離、計畫困難'
 	},
 	{
 		Name:'權杖三',
 		Number:'Wands-03',
 		element:'火',
-		InformationKeyY:'出行、遠距離、進展順利、好消息',
+		InformationKeyY:'進展順利、好消息',
 		InformationKeyS:'距離感、出行不順、不好的消息'
 	},
 	{
 		Name:'權杖四',
 		Number:'Wands-04',
 		element:'火',
-		InformationKeyY:'穩定、固定、發展順利、合作愉快',
-		InformationKeyS:'破壞、分裂、發展失利、合作失衡'
+		InformationKeyY:'穩定、發展順利、合作愉快',
+		InformationKeyS:'分裂、發展失利、合作失衡'
 	},
 	{
 		Name:'權杖五',
 		Number:'Wands-05',
 		element:'火',
-		InformationKeyY:'不穩、鬥爭、不愉快、失去穩定',
-		InformationKeyS:'冷卻、停止鬥爭、消極、不願繼續'
+		InformationKeyY:'爭鬥、不愉快、不穩',
+		InformationKeyS:'消極、不願繼續'
 	},
 	{
 		Name:'權杖六',
 		Number:'Wands-06',
 		element:'火',
-		InformationKeyY:'出擊、得勝、眾志成城、凝聚力',
-		InformationKeyS:'退縮、散漫、不團結、失去人心'
+		InformationKeyY:'出擊、凝聚力',
+		InformationKeyS:'不團結、失去人心'
 	},
 	{
 		Name:'權杖七',
 		Number:'Wands-07',
 		element:'火',
-		InformationKeyY:'抵抗、壓力、鬥爭、奮力對抗、不放棄希望',
-		InformationKeyS:'被迫放棄、失去力量、消極等待'
+		InformationKeyY:'抵抗、頂住壓力、不放棄希望',
+		InformationKeyS:'放棄、消極'
 	},
 	{
 		Name:'權杖八',
 		Number:'Wands-08',
 		element:'火',
-		InformationKeyY:'旅行、遠距離、發展快速、新馬異動',
-		InformationKeyS:'受制、交通意外、行動受阻'
+		InformationKeyY:'快速發展',
+		InformationKeyS:'行動受阻'
 	},
 	{
 		Name:'權杖九',
 		Number:'Wands-09',
 		element:'火',
-		InformationKeyY:'掌握、操控、支配他人、掌握一切',
-		InformationKeyS:'受制、交通意外、行動受阻'
+		InformationKeyY:'掌握一切、咬牙撐住',
+		InformationKeyS:'失去力量、極度混亂'
 	},
 	{
 		Name:'權杖十',
 		Number:'Wands-10',
 		element:'火',
-		InformationKeyY:'壓力、費力、負責任、腳踏實地、背負重擔',
-		InformationKeyS:'卸下重擔、不負責任、放棄堅持'
+		InformationKeyY:'喘不過氣、負責任、腳踏實地',
+		InformationKeyS:'卸下重擔、不負責任、壓力舒緩'
 	},
 	{
 		Name:'權杖騎士',
 		Number:'Wands-Kinght',
 		element:'火',
-		InformationKeyY:'積極運作、動力十足、熱情直接',
-		InformationKeyS:'失去動力、三分鐘熱度、不積極'
+		InformationKeyY:'充滿熱忱、動力十足',
+		InformationKeyS:'不積極、失去動力'
 	},
 	{
 		Name:'權杖皇后',
 		Number:'Wands-Queen',
 		element:'火',
-		InformationKeyY:'積極操控、控制一切、掌握權力、指使',
-		InformationKeyS:'放棄權利、消極態度、放任'
+		InformationKeyY:'掌握一切、指引他人',
+		InformationKeyS:'憤世忌俗、消極'
 	},
 	{
 		Name:'權杖國王',
 		Number:'Wands-King',
 		element:'火',
-		InformationKeyY:'掌握一切、享受權力',
-		InformationKeyS:'失去掌握 嘗試穩住陣腳'
+		InformationKeyY:'掌握一切',
+		InformationKeyS:'失去掌控、嘗試穩住陣腳'
 	},
 	{
 		Name:'權杖侍者',
 		Number:'Wands-Page',
 		element:'火',
-		InformationKeyY:'開始行動、積極熱情、孩子氣、活潑',
-		InformationKeyS:'不積極、行動慢、衝突、內在火爆'
+		InformationKeyY:'積極熱情、活潑',
+		InformationKeyS:'不積極、內在衝突、焦躁'
 	},
 	/*-----------------聖杯 Cups-------------------*/
 	{
 		Name:'聖杯一',
 		Number:'Cup-01',
 		element:'水',
-		InformationKeyY:'開始情感、開始溝通、計畫未來',
-		InformationKeyS:'情感阻礙、沒有方向、溝通阻礙'
+		InformationKeyY:'開始溝通、情感交流',
+		InformationKeyS:'情感阻礙、溝通阻礙'
 	},
 	{
 		Name:'聖杯二',
 		Number:'Cup-02',
 		element:'水',
-		InformationKeyY:'合夥、交流、婚姻、美好合作',
-		InformationKeyS:'拆夥、分手、不愉快的互動合作'
+		InformationKeyY:'美好合作、交流、平等相處',
+		InformationKeyS:'拆夥、不愉悅合作'
 	},
 	{
 		Name:'聖杯三',
 		Number:'Cup-03',
 		element:'水',
-		InformationKeyY:'分享、三角、收穫、豐收、合作',
-		InformationKeyS:'檯面下、不愉快、拆夥、溝通不順'
+		InformationKeyY:'豐收、合作、第三者、社交場合',
+		InformationKeyS:'拆夥、溝通不順'
 	},
 	{
 		Name:'聖杯四',
 		Number:'Cup-04',
 		element:'水',
-		InformationKeyY:'不滿足、想太多、不切實際、光說不練',
-		InformationKeyS:'思考不周、錯誤判斷、安於現狀'
+		InformationKeyY:'不切實際、想太多',
+		InformationKeyS:'安於現狀、思考不周、收斂思緒'
 	},
 	{
 		Name:'聖杯五',
 		Number:'Cup-05',
 		element:'水',
-		InformationKeyY:'悲傷、失落、孤獨感、找不到方向',
-		InformationKeyS:'跨越困境、設法突破、主動嘗試改善'
+		InformationKeyY:'悲傷、困境、失望',
+		InformationKeyS:'跨越困境、嘗試改善'
 	},
 	{
 		Name:'聖杯六',
 		Number:'Cup-06',
 		element:'水',
-		InformationKeyY:'安全感、穩定、被祝福、有保障',
-		InformationKeyS:'不安全、不穩定、不被祝福'
+		InformationKeyY:'被祝福、安全感',
+		InformationKeyS:'不被祝福、不被理解'
 	},
 	{
 		Name:'聖杯七',
 		Number:'Cup-07',
 		element:'水',
-		InformationKeyY:'桃花旺、很多選擇、貴人運',
-		InformationKeyS:'桃花匱乏、貴人運差、缺乏機會'
+		InformationKeyY:'貴人運、選擇很多、舉棋不定',
+		InformationKeyS:'缺乏機會、放棄選擇'
 	},
 	{
 		Name:'聖杯八',
 		Number:'Cup-08',
 		element:'水',
-		InformationKeyY:'猶豫不定、想要離開、不滿現況',
-		InformationKeyS:'停留現況、不敢追求、放棄慾望'
+		InformationKeyY:'想要離開、不滿現狀',
+		InformationKeyS:'停留現狀、不敢追求'
 	},
 	{
 		Name:'聖杯九',
 		Number:'Cup-09',
 		element:'水',
-		InformationKeyY:'滿足現狀、歡樂時光、與人分享、順利',
-		InformationKeyS:'失去感情、不滿現狀、拒絕互動、阻礙'
+		InformationKeyY:'滿足現狀、分享他人',
+		InformationKeyS:'不滿現狀、拒絕互動'
 	},
 	{
 		Name:'聖杯十',
 		Number:'Cup-10',
 		element:'水',
-		InformationKeyY:'喜悅、幸福、桃花旺盛、感情順利',
-		InformationKeyS:'失望、匱乏、失去信心、失去感情、不滿現狀'
+		InformationKeyY:'感情順利、幸福喜悅',
+		InformationKeyS:'失去信心、美中不足'
 	},
 	{
 		Name:'聖杯侍者',
 		Number:'Cup-Page',
 		element:'水',
-		InformationKeyY:'開始交流、開始溝通、學習新知識',
-		InformationKeyS:'排斥他人、拒絕互動、拒絕學習'
+		InformationKeyY:'平等溝通、真誠坦露',
+		InformationKeyS:'排斥他人、拒絕溝通'
 	},
 	{
 		Name:'聖杯皇后',
 		Number:'Cup-Queen',
 		element:'水',
-		InformationKeyY:'有智慧的人、慈愛、幸福安全',
-		InformationKeyS:'情緒不穩、難以溝通、距離感'
+		InformationKeyY:'慈愛',
+		InformationKeyS:'情緒不穩'
 	},
 	{
 		Name:'聖杯國王',
 		Number:'Cup-King',
 		element:'水',
-		InformationKeyY:'有智慧的人、發展遲緩、安穩舒適',
-		InformationKeyS:'言語傷害、負面情緒、暗潮洶湧'
+		InformationKeyY:'情感內斂、有智慧、安穩舒適',
+		InformationKeyS:'負面情緒、暗潮洶湧'
 	},
 	{
 		Name:'聖杯騎士',
 		Number:'Cup-Kinght',
 		element:'水',
-		InformationKeyY:'消極等待、守住現況、舒適圈',
-		InformationKeyS:'放棄等待、思緒亂、拒絕互動'
+		InformationKeyY:'消極等待、舒適圈',
+		InformationKeyS:'思緒混亂'
 	},
 	/*-----------------寶劍 Cups-------------------*/
 	{
 		Name:'寶劍一',
 		Number:'Swords-01',
 		element:'風',
-		InformationKeyY:'虛幻、假象、不穩定、不實際',
-		InformationKeyS:'凸顯、展現、由虛轉實'
+		InformationKeyY:'不穩定、新挑戰、虛幻',
+		InformationKeyS:'展現自我、由虛轉實'
 	},
 	{
 		Name:'寶劍二',
 		Number:'Swords-02',
 		element:'風',
-		InformationKeyY:'放不開、不願面對、自我放逐',
-		InformationKeyS:'放開、不得不面對、願意敞開'
+		InformationKeyY:'不願面對',
+		InformationKeyS:'願意敞開、慢慢面對'
 	},
 	{
 		Name:'寶劍三',
 		Number:'Swords-03',
 		element:'風',
-		InformationKeyY:'失落、傷痛、極度低落',
-		InformationKeyS:'空虛感、心理疾病、備受打擊'
+		InformationKeyY:'悲傷、失望',
+		InformationKeyS:'備受打擊'
 	},
 	{
 		Name:'寶劍四',
 		Number:'Swords-04',
 		element:'風',
-		InformationKeyY:'休息、隱藏、療傷中',
-		InformationKeyS:'掙脫、展現自我、突破困局'
+		InformationKeyY:'休息',
+		InformationKeyS:'掙脫、突破困局'
 	},
 	{
 		Name:'寶劍五',
 		Number:'Swords-05',
 		element:'風',
-		InformationKeyY:'暫時妥協、事情尚未解決、暫時放下成見',
-		InformationKeyS:'開始衝突、充滿壓力、不穩定的互動'
+		InformationKeyY:'暫時妥協',
+		InformationKeyS:'衝突、不穩定'
 	},
 	{
 		Name:'寶劍六',
 		Number:'Swords-06',
 		element:'風',
 		InformationKeyY:'貴人相助、脫離困境、順其自然',
-		InformationKeyS:'沒有希望，缺乏貴人、不穩定、犯小人'
+		InformationKeyS:'不穩定、缺乏貴人'
 	},
 	{
 		Name:'寶劍七',
 		Number:'Swords-07',
 		element:'風',
-		InformationKeyY:'偷偷摸摸、不願放棄、利用險招',
-		InformationKeyS:'事跡敗露、放棄掙扎、坦坦蕩蕩'
+		InformationKeyY:'偷偷摸摸、利用險招',
+		InformationKeyS:'事跡敗露、坦坦蕩蕩'
 	},
 	{
 		Name:'寶劍八',
 		Number:'Swords-08',
 		element:'風',
-		InformationKeyY:'自我束縛、不願面對、停留過去、堅持執念',
-		InformationKeyS:'放棄過去、脫離困境、被迫接受'
+		InformationKeyY:'作繭自縛、受困過去',
+		InformationKeyS:'放棄過去、脫離困境'
 	},
 	{
 		Name:'寶劍九',
 		Number:'Swords-09',
 		element:'風',
-		InformationKeyY:'憂慮、擔心、內在壓力、精神壓力',
-		InformationKeyS:'輕微壓力、保有希望、依然有壓力'
+		InformationKeyY:'擔憂、焦慮、內耗',
+		InformationKeyS:'壓力減輕、不想放棄'
 	},
 	{
 		Name:'寶劍十',
 		Number:'Swords-10',
 		element:'風',
-		InformationKeyY:'結束、停止、沒有生機',
-		InformationKeyS:'不願面對、仍然掙扎、不願放棄'
+		InformationKeyY:'結束',
+		InformationKeyS:'不願面對、不想放棄'
 	},
 	{
 		Name:'寶劍侍者',
 		Number:'Swords-Page',
 		element:'風',
-		InformationKeyY:'開始有壓力、排斥他人、虛幻距離感',
-		InformationKeyS:'狀態穩定、稍有把握'
+		InformationKeyY:'排斥他人、壓力',
+		InformationKeyS:'狀態穩定、稍微把握'
 	},
 	{
 		Name:'寶劍皇后',
 		Number:'Swords-Queen',
 		element:'風',
-		InformationKeyY:'嚴肅、距離感、不講情面、高標準',
-		InformationKeyS:'事情不順、故步自封、壓力'
+		InformationKeyY:'嚴肅、不講情面',
+		InformationKeyS:'事情不順'
 	},
 	{
 		Name:'寶劍國王',
 		Number:'Swords-King',
 		element:'風',
-		InformationKeyY:'過分理性、距離感、自我空間',
-		InformationKeyS:'不理性、不穩定、無法掌握'
+		InformationKeyY:'高標準、過分理性',
+		InformationKeyS:'不理性、稍微把握'
 	},
 	{
 		Name:'寶劍騎士',
 		Number:'Swords-Kinght',
 		element:'風',
-		InformationKeyY:'強烈不穩、不切實際',
-		InformationKeyS:'向現實低頭、為五斗米折腰'
+		InformationKeyY:'極端、強烈爭吵',
+		InformationKeyS:'向現實低頭'
 	},
 	/*-----------------錢幣 Coins-------------------*/
 	{
 		Name:'錢幣一',
 		Number:'Pentacles-01',
 		element:'土',
-		InformationKeyY:'穩定、追求物質、沒有變化',
-		InformationKeyS:'虛幻、不穩、變化劇烈'
+		InformationKeyY:'穩定、沒有變化',
+		InformationKeyS:'虛幻、變化不穩'
 	},
 	{
 		Name:'錢幣二',
 		Number:'Pentacles-02',
 		element:'土',
-		InformationKeyY:'選擇、抉擇、努力平衡、猶豫不決',
-		InformationKeyS:'失去平衡、被迫選擇、誤判、分化'
+		InformationKeyY:'選擇、努力平衡',
+		InformationKeyS:'失去平衡、分化'
 	},
 	{
 		Name:'錢幣三',
 		Number:'Pentacles-03',
 		element:'土',
-		InformationKeyY:'表演、展現自我、凸顯自己',
-		InformationKeyS:'觀察他人、注意別人、學習他人長處'
+		InformationKeyY:'合作、展現自己、互相學習',
+		InformationKeyS:'學習長處、忽略細節'
 	},
 	{
 		Name:'錢幣四',
 		Number:'Pentacles-04',
 		element:'土',
-		InformationKeyY:'小氣、節省、不願放棄、專注眼前',
-		InformationKeyS:'大方、浪費、粗心、不穩定'
+		InformationKeyY:'小氣、專注眼前、守護',
+		InformationKeyS:'大方、不穩定、粗心'
 	},
 	{
 		Name:'錢幣五',
 		Number:'Pentacles-05',
 		element:'土',
-		InformationKeyY:'面對傷痛、痛失一切、天人永隔',
-		InformationKeyS:'尋求協助、努力突破、不放棄希望'
+		InformationKeyY:'失去一切、艱苦困難',
+		InformationKeyS:'不放棄希望、尋求協助'
 	},
 	{
 		Name:'錢幣六',
 		Number:'Pentacles-06',
 		element:'土',
-		InformationKeyY:'穩定、貴人、不對等關係、合作關係',
-		InformationKeyS:'拆夥、不穩定、失去援助'
+		InformationKeyY:'貴人運、不平等、合作',
+		InformationKeyS:'失去幫助、不穩定'
 	},
 	{
 		Name:'錢幣七',
 		Number:'Pentacles-07',
 		element:'土',
-		InformationKeyY:'期待、投資、等待收成、腳踏實地',
-		InformationKeyS:'放棄、不願意等待、不理性'
+		InformationKeyY:'腳踏實地、持續付出、等待收成',
+		InformationKeyS:'放棄、不願等待'
 	},
 	{
 		Name:'錢幣八',
 		Number:'Pentacles-08',
 		element:'土',
-		InformationKeyY:'耕耘、努力、奮鬥、放下身段',
-		InformationKeyS:'懶惰、散漫、不想付出、及時享樂'
+		InformationKeyY:'耕耘、努力工作、方向正確',
+		InformationKeyS:'散漫、不想付出'
 	},
 	{
 		Name:'錢幣九',
 		Number:'Pentacles-09',
 		element:'土',
-		InformationKeyY:'收成、承接機會、接收功勞',
-		InformationKeyS:'尚未達標、不想努力、放棄他人援助'
+		InformationKeyY:'收成、承接機會',
+		InformationKeyS:'尚未達標、不想努力'
 	},
 	{
 		Name:'錢幣十',
 		Number:'Pentacles-10',
 		element:'土',
-		InformationKeyY:'安穩、成功、幸福美滿、享受豐盛',
-		InformationKeyS:'不安全、不穩定、不滿意'
+		InformationKeyY:'享受豐盛、安穩、成功',
+		InformationKeyS:'不穩定、不滿意'
 	},
 	{
 		Name:'錢幣侍者',
 		Number:'Pentacles-Page',
 		element:'土',
-		InformationKeyY:'腳踏實地、務實謹慎',
-		InformationKeyS:'太保守、守在舒適圈'
+		InformationKeyY:'較踏實地、務實謹慎',
+		InformationKeyS:'太保守'
 	},
 	{
 		Name:'錢幣皇后',
 		Number:'Pentacles-Queen',
 		element:'土',
-		InformationKeyY:'富有、富足、享受現況、孕育',
-		InformationKeyS:'不滿足、不穩定、執著物質'
+		InformationKeyY:'富足、享受現況',
+		InformationKeyS:'不滿足'
 	},
 	{
 		Name:'錢幣國王',
 		Number:'Pentacles-King',
 		element:'土',
-		InformationKeyY:'穩若泰山、收入穩定、狀態安定',
-		InformationKeyS:'阻礙重重、不確定性、狀況連連'
+		InformationKeyY:'穩若泰山、狀態安定',
+		InformationKeyS:'阻礙重重'
 	},
 	{
 		Name:'錢幣騎士',
 		Number:'Pentacles-Kinght',
 		element:'土',
-		InformationKeyY:'按部就班、沉穩前進、四平八穩',
-		InformationKeyS:'遇到阻礙、缺少資源、停止'
+		InformationKeyY:'按部就班',
+		InformationKeyS:'遇到阻礙'
 	}
 ]
 return tarotInformation;
