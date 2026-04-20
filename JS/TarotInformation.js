@@ -6,85 +6,85 @@ var tarotInformation =
 		Name:'愚人',
 		Number:'Big-00.The Fool',
 		element:'風',
-		InformationKeyY:'幻想、夢想、希望、自由、直率、天真、聰明、孩子氣、標新立異、不拘小節、超脫世俗、面對阻礙、充滿期待',
-		InformationKeyS:'退縮、害怕、擔心、意外、無能、不和、矛盾、故步自封、任人擺布、推三阻四、停留過去'
+		InformationKeyY:'真誠、探索心、愛冒險、充滿希望',
+		InformationKeyS:'擔憂、害怕、故步自封、退縮'
 	},
 	{
 		Name:'魔術師',
 		Number:'Big-01.The Magician',
 		element:'風',
-		InformationKeyY:'起點、開始、創造、顯化、表演、表達、溝通、思考、雄心壯志、目標明確、蓄勢待發、才華洋溢、聰明靈活',
-		InformationKeyS:'停頓、遲緩、焦慮、沮喪、欺騙、狡猾、沒有目標、失去方向、無法掌握、情緒不穩、發展不順、溝通障礙、思緒混沌'
+		InformationKeyY:'聰明靈活、擅長溝通、天資聰穎、展現自我',
+		InformationKeyS:'情緒不穩、江湖騙子、焦慮、失去控制'
 	},
 	{
 		Name:'女祭司',
 		Number:'Big-02.The High Priestess',
 		element:'水',
-		InformationKeyY:'冷靜、直覺、膽怯、壓抑、謹慎、害羞、陰柔、相當被動、精神不穩、多愁善感、鑽牛角尖、優柔寡斷、神經質',
-		InformationKeyS:'實在、現實、活躍、大膽、理性、主動、積極、直接、善變、充滿魅力、展現自我、被誘惑、性格外向'
+		InformationKeyY:'陰柔、直覺強烈、情感內斂、冷靜',
+		InformationKeyS:'大膽、熱情、展現自我、喜歡交際'
 	},
 	{
 		Name:'女皇',
 		Number:'Big-03.The Emepress',
 		element:'土',
-		InformationKeyY:'富貴、富裕、豐收、豐盛、優抹、金錢、安逸、穩定、愛情、溫柔、婚姻、懷孕、生產力、親密關係',
-		InformationKeyS:'浪費、貪婪、不實、奢侈、小產、墮胎、氣質平庸、量產缺失、收入減低、物慾重、不真誠、爛桃花'
+		InformationKeyY:'豐盛、溫柔、懷孕、穩定、愛情',
+		InformationKeyS:'浪費、貪婪、不誠實、爛桃花'
 	},
 	{
 		Name:'皇帝',
 		Number:'Big-04.The Emperor',
 		element:'火',
-		InformationKeyY:'全力、財力、安定、安穩、成功、驕傲、積極、勇猛、領導、主動、掌控、指揮、企圖心、目中無人',
-		InformationKeyS:'暴力、慾望、攻擊、傷害、殘暴、侵略、鬥爭、奪走、消耗、佔有慾、侵略心、缺乏同理'
+		InformationKeyY:'積極、驕傲、指揮、目中無人',
+		InformationKeyS:'缺乏同理、攻擊、傷害、殘暴'
 	},
 	{
 		Name:'教皇',
 		Number:'Big-05.The Hierophant',
 		element:'土',
-		InformationKeyY:'導師、付出、智慧、神性、靈性、開悟、信仰、服務、分享、祝福、給予者、指引方向、舊式思維',
-		InformationKeyS:'學生、收取、要求、需求、交換、離開、進修、不付出、缺乏耐性、突破現狀'
+		InformationKeyY:'導師、分享、指引方向、舊有思維',
+		InformationKeyS:'突破現狀、缺乏耐性、離開、進修'
 	},
 	{
 		Name:'戀人',
 		Number:'Big-06.The Lovers',
 		element:'風',
-		InformationKeyY:'愛情、戀愛、合作、合夥、夥伴、婚姻、耐心、互信、付出、收穫、幸福、成長、良好關係、一見鍾情',
-		InformationKeyS:'分手、不合、拆夥、爭執、鬥爭、對立、怨恨、阻礙、疑心、不愉快、交流停止、貌合神離'
+		InformationKeyY:'合作夥伴、戀愛、幸福、成長',
+		InformationKeyS:'分手、不合、不愉快'
 	},
 	{
 		Name:'戰車',
 		Number:'Big-07.The Chariot',
 		element:'水',
-		InformationKeyY:'行動、家庭、結合、發展、擴大、保護、短程旅行、交通工具',
-		InformationKeyS:'停滯、束縛、卡住、意外、暴力、突發狀況、無法掌握、腹背受敵'
+		InformationKeyY:'行動、保護、堅定、發展',
+		InformationKeyS:'卡住、意外、突發狀況、腹背受敵'
 	},
 	{
 		Name:'力量',
 		Number:'Big-08.Strength',
 		element:'火',
-		InformationKeyY:'堅持、忍耐、和平、控制、管理、細心、小心、有勇氣、有耐心、不屈不饒',
-		InformationKeyS:'暴躁、反擊、爭執、鬥爭、易怒、失去耐心、失去信心、不受控制'
+		InformationKeyY:'有勇氣、不屈不饒、細心、有耐心',
+		InformationKeyS:'暴躁、鬥爭、易怒、失去耐心'
 	},
 	{
 		Name:'隱士',
 		Number:'Big-09.The Hermit',
 		element:'土',
-		InformationKeyY:'正位：思考、找尋、內省、理性、沉默、潛意識、想像力、找到方向、目標明確',
-		InformationKeyS:'迷惑、膽怯、停滯、失敗、失去方向、心不在焉、沒有目標'
+		InformationKeyY:'自省、目標明確、找到方向、理性',
+		InformationKeyS:'迷茫、停滯、失去方向'
 	},
 	{
 		Name:'命運之輪',
 		Number:'Big-10.Wheel of Fortune',
 		element:'火',
-		InformationKeyY:'轉動、機會、發展、希望、升遷、變動、起點、終點、過程、因果關係',
-		InformationKeyS:'停滯、暫停、意外、困難、強迫、時間未到、無動於衷'
+		InformationKeyY:'希望、發展、升遷、機會',
+		InformationKeyS:'停滯、困難、無動於衷'
 	},
 	{
 		Name:'正義',
 		Number:'Big-11.The Justice',
 		element:'風',
-		InformationKeyY:'公平、公正、穩固、法則、契約、法律、對稱、均衡、理性',
-		InformationKeyS:'犯法、不平衡、不公道、不穩定、不理性、官司訴訟、拒絕互動、合約問題'
+		InformationKeyY:'公平、公正、均衡、穩固',
+		InformationKeyS:'不公正、拒絕互動、官司纏繞'
 	},
 	{
 		Name:'吊人',
